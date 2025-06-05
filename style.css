@@ -1,0 +1,54 @@
+body{
+    font-family: Arial, sans-serif;
+    background: #f7f7f7;
+    text-align: center;
+    padding: 40px;
+}
+
+h1{
+    font-size: 32px;
+}
+
+.choices{
+    font-size: 30px;
+    padding: 20px;
+    margin: 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3;
+}
+
+.choice{
+    font-size: 30px;
+    padding: 20px;
+    margin: 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3;
+}
+
+.choice:hover{
+    transform: scale(1.1);
+}
+
+.result, .score{
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.choice.rock{
+    background: #ff5454;
+    color: white;
+}
+
+.choice.paper{
+    background: #0275d8;
+    color: white;
+}
+
+.choice.scissors{
+    background: rgba(6, 192, 68, 0.533);
+    color: white;
+}
